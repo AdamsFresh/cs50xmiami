@@ -12,13 +12,12 @@ Forgot how old someone is? Calculate it!
 
 
 
-var birthYear;
 
 var currentYear = prompt("What is the current year?");
 
 var birthYear = prompt("What is your birth year?");
 
-var age === currentYear - birthYear;
+var age = currentYear - birthYear;
 
 // write your solution here..
-console.log("You are currently either" + age + "or" + (age +1) + "years old." );
+console.log("You are currently either" + age + "or" + (age + 1) + "years old.");

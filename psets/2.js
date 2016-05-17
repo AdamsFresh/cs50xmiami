@@ -12,3 +12,11 @@ Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no mo
 */
 
 // write your solution here...
+var currentAge = 31,
+    maxAge = 99,
+    lifeSpan = (maxAge - currentAge) * 365,
+    servingsPerday = 1;
+
+var lifetimeSupply = (lifeSpan * servingsPerday)
+
+ console.log("You will need" + lifetimeSupply + "to last you until the ripe old age of" + maxAge + ".");   
