@@ -19,4 +19,4 @@ var currentAge = 31,
 
 var lifetimeSupply = (lifeSpan * servingsPerday)
 
- console.log("You will need" + lifetimeSupply + "to last you until the ripe old age of" + maxAge + ".");   
+ console.log("You will need " + lifetimeSupply + " bags of carmel popcorn to last you until the ripe old age of" + maxAge + ".");   
