@@ -14,4 +14,14 @@ Look up the JavaScript string reference to find methods which may be useful!
 
 function mixUp(a, b) {
   // write your solution here...
+
+  var firstWordfirstLetters = a.substring(0,2),
+      secondWordfirstLetters = b.substring(0,2),
+      firstWordremLetters = a.slice(2),
+      secondWordremLetters = b.slice(2);
+
+      console.log(secondWordfirstLetters + firstWordremLetters + " " + firstWordfirstLetters + secondWordremLetters);
+
 }
+
+mixUp('Adams', 'Fontin');
