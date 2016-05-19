@@ -13,3 +13,8 @@ Write a function named tellFortune that:
 function tellFortune (numChildren, partnerName, geoLocal, jobTitle){
   console.log("You will be a "+ jobTitle+" in "+geoLocal+ ", and married to "+partnerName+" with "+numChildren+" kids.");
 }
+
+
+tellFortune(3, 'Zuhdiyah', 'Miami', 'Entrepenuer');
+tellFortune(2, 'Brittany Renner', 'Cali', 'Hustla');
+tellFortune(1, 'Iesha Mariee', 'Hawaii', 'Soccer Player');
