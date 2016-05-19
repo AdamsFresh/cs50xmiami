@@ -17,4 +17,7 @@ For example:
 
 function notBad(sentence) {
   // write your solution here...
+  var nB = "not";
+  var bN = "bad";
+
 }
