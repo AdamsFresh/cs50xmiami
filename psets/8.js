@@ -18,4 +18,15 @@ For example:
 
 function verbing(word) {
   // write your solution here...
+var n = word.length;
+if (n > 3){
+  console.log(word + "ing");
 }
+else{
+  console.log(word);
+}
+
+}
+
+
+verbing('cat');
