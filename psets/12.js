@@ -12,3 +12,14 @@ Write a function named calculateSupply that:
 */
 
 // write your solution here...
+function calculateSupply (currentAge, amountPerDay){
+  var maxAge = 99;
+  var lifeSpan = (maxAge - currentAge) * 365;
+
+  var lifetimeSupply = (lifeSpan * amountPerday);
+
+      console.log("You will need " + lifetimeSupply + " to last you until the ripe old age of " + maxAge);
+}
+
+
+calculateSupply(31, 1);
