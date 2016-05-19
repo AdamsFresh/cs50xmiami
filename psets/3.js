@@ -9,7 +9,7 @@ http://math2.org/math/geometry/circles.htm
 - Calculate the area based on the radius, and output "The area is NN".
 */
 var radius = 4,
-    circumferenceCircle = 2 * Math.PI * radius;
+    circumferenceCircle = 2 * Math.PI * radius,
     areaCircle = Math.PI * Math.sqrt(radius);
 
 
