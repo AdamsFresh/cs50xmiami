@@ -13,4 +13,9 @@ fixStart('babble'): 'ba**le'
 
 function fixStart(s) {
   // write your solution here...
+  var key = s.charAt(0);
+  var newS = s.replace(key, "*");
+  console.log(newS);
 }
+
+fixStart('gang');
