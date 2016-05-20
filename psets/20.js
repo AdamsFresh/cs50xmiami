@@ -9,3 +9,9 @@ Create an array to hold your top choices (colors, presidents, whatever).
 */
 
 // write your solution here...
+var topCompanies = ['Apple', 'Nike', 'Yeezy', 'BMW'];
+
+  console.log([0]);
+  console.log([1]);
+  console.log([2]);
+  console.log([3]);
